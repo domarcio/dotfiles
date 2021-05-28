@@ -21,6 +21,8 @@ It's necessary to have already installed some things before following the steps 
 
 [user@pc: ~]$ git config --global user.name "Marcio Vinicius"
 [user@pc: ~]$ git config --global user.email "foo@bar.dev"
+
+[user@pc: ~]$ sudo dnf install podman-docker
 ```
 
 ## Steps
