@@ -15,9 +15,9 @@ It's necessary to have already installed some things before following the steps 
 [user@pc: ~]$ sudo dnf groupinstall "Development Tools" "Development Libraries"
 [user@pc: ~]$ sudo dnf install git tmux zsh autoconf
 
-[user@pc: ~]$ [if necessary] ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "foo@bar.dev"
-[user@pc: ~]$ [if necessary] eval "$(ssh-agent -s)"
-[user@pc: ~]$ [if necessary] sh-add ~/.ssh/id_ed25519
+[user@pc: ~]$ #if necessary: ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "foo@bar.dev"
+[user@pc: ~]$ #if necessary: eval "$(ssh-agent -s)"
+[user@pc: ~]$ #if necessary: sh-add ~/.ssh/id_ed25519
 
 [user@pc: ~]$ git config --global user.name "Marcio Vinicius"
 [user@pc: ~]$ git config --global user.email "foo@bar.dev"
